@@ -10,9 +10,13 @@ public class GameCharacter {
         this.weapon = weapon;
     }
 
-    public void attack(){
-        //weapon.attack 델리게이트를 의미함
-        //weapon이 어떤 무기로 공격할지 weapon에게 위임
-        weapon.attack();
+    public void attack() {
+        if (weapon == null) {
+            System.out.println("맨손 공격, 지금 null값임");
+        } else {
+            //weapon.attack 델리게이트를 의미함
+            //weapon이 어떤 무기로 공격할지 weapon에게 위임
+            weapon.attack();
+        }
     }
 }
