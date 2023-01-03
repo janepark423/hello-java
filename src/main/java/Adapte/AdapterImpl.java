@@ -11,6 +11,6 @@ public class AdapterImpl implements Adapter{
 
     @Override
     public Float halfOf(Float f) {
-        return null;
+        return (float) Math.half(f.doubleValue());
     }
 }
