@@ -14,8 +14,12 @@ TODO: 배얄의 메모리 할당
     public  static  void  main(String[] args){
 
         int [] grades;
-
         grades = new int[5];
+
+        double [] array;
+        array = new double [100];
+
+        char [] word  = new char [20];
 
         grades[0] = 100;
         grades[1] = 76;
