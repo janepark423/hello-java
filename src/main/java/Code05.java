@@ -1,5 +1,16 @@
 public class Code05 {
+/*
+TODO: 배열의 선언
 
+1. 데이터형 배열변수명[];
+2.  데이터형[]
+3. 배열 변수명;
+
+TODO: 배얄의 메모리 할당
+
+배열이름 = new 데이터형 [배열의 실제크기];
+
+ */
     public  static  void  main(String[] args){
 
         int [] grades;
