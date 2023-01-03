@@ -27,10 +27,10 @@ TODO: 배얄의 메모리 할당
         grades[3] = 95;
         grades[4] = 14;
 
-        System.out.println(grades[0]);
-        System.out.println(grades[1]);
-        System.out.println(grades[2]);
-        System.out.println(grades[3]);
-        System.out.println(grades[4]);
+        for(int i =0; i<5; i++){
+        System.out.println("Grade "+ (i+1) + ":   " + grades[i]);
+
+        }
+
     }
 }
