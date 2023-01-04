@@ -5,6 +5,8 @@ public class CalculatorExample {
 
         Calculator myCalc = new Calculator();
         myCalc.powerOn();
+        int result1 = myCalc.plus(5,6);
+        System.out.println(result1);
 
     }
 }
