@@ -9,6 +9,7 @@ public class Employee {
         this.salary = salary;
     }
 
+    //TODO: 월급 올리는 부분
     public void raiseSalary(double byPercent) {
         double raise = salary * byPercent / 100;
         salary += raise;    
