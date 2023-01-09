@@ -1,6 +1,6 @@
 package Jeongth.lec04;
 
-public class ProcureItemVo {
+public class ProcureItemVO {
 
     private  int id;
     private String name;
