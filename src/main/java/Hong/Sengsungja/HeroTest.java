@@ -6,6 +6,11 @@ public class HeroTest {
         Hero thanos = new Hero("타노스", 160);
         Hero thor = new Hero("토르", 150);
         Hero groot = new Hero("그루트", 40);
+
+        System.out.println(ironMan.toStr());
+        System.out.println(thanos.toStr());
+        System.out.println(thor.toStr());
+        System.out.println(groot.toStr());
     }
 }
 
