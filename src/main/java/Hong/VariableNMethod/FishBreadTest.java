@@ -6,6 +6,8 @@ public class FishBreadTest {
 
         breads[0] = new FishBread(0);
         breads[1] = new FishBread(1);
+        breads[2] = new FishBread(2);
+        breads[3] = new FishBread(3);
 
         for (int i = 0; i < FishBread.count; i++) {
             breads[i].print();
