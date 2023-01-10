@@ -2,7 +2,7 @@ package Hong.RefAndStatic.LoopSyntax;
 
 public class EmployeeTest {
     public static void main(String[] args) {
-        int[] hours0 = {2, 3, 3, 4, 5, 8, 8};
+        int[] hours0 = {2, 4, 3, 4, 5, 8, 8};
 
         //객체 생성
         Employee e0 = new Employee("직원0", hours0);
