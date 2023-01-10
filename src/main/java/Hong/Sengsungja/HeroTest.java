@@ -18,10 +18,12 @@ class Hero {
     String name;
     int hp;
 
-    Hero(String name, int hp) {
+    Hero(String s, int i) {
         //파라미터 추가하기
 
         //필드값 초기화 하기
+        name = s;
+        hp = i;
     }
 
     //메소드
