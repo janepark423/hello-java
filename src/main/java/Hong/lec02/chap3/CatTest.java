@@ -20,6 +20,13 @@ class Cat2 {
     String breeds;
     int age;
 
+    //생성자 - 객체 생성 및 초기화
+    Cat2(String s, double d, int i) {
+        name = s; //이름 초기화
+        weight = d; //무게 초기화
+        age = i;//나이 초기화
+    }
+
     void claw() {
         System.out.println("Cat2 할퀴기 기술 슥샥 슥샥");
     }
