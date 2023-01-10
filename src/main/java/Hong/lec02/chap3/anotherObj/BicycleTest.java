@@ -7,6 +7,8 @@ public class BicycleTest {
         b1.name = "할리데이비슨 바이크";
         b1.weight = 7.25;
         b1.price = 256000;
+
+        System.out.printf("b1->{%s, %.2f, %d}\n", b1.name, b1.weight, b1.price);
     }
 }
 
