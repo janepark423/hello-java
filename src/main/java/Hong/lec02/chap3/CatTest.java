@@ -7,7 +7,8 @@ public class CatTest {
         c.name = "핑꾸";
         c.breeds = "페르시안";
         c.age = 3;
-
+        c.meow(); //인스턴스 메소드 호출
+        
         System.out.printf("이름 : %s\n", c.name);
         System.out.printf("품종 : %s\n", c.breeds);
         System.out.printf("나이  : %s\n", c.age);
