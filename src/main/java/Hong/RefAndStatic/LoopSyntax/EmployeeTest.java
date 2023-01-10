@@ -26,7 +26,7 @@ class Employee {
     }
 
     void printTotalHours() {
-        System.out.printf("%s -> $d 시간 \n", name, totalHours());
+        System.out.printf("%s -> %d 시간 \n", name, totalHours());
     }
 
     int totalHours() {
