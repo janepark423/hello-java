@@ -6,10 +6,12 @@ public class SongTest {
         Song s1 = new Song("비상", "임재범");
         Song s2 = new Song("롹스피릿", "박완규");
 
-        Song[] songs = {};
+        //songs의 배열 타입
+        Song[] songs = {s0, s1, s2};
 
         for (int i = 0; i < songs.length; i++) {
             //객체정보 출력하기
+            System.out.println(songs[i].toStr());
         }
     }
 }
@@ -24,7 +26,7 @@ class Song {
         singer = s;
     }
 
-    String toSre() {
+    String toStr() {
         return String.format("Song {name : %s, singer: %s}", name, singer);
     }
 }
