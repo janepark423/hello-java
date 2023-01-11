@@ -2,10 +2,15 @@ package Hong.ProtectByHackers;
 
 public class Main {
     public static void main(String[] args) {
+
+        // 1. 계좌 생성
         Account myAccount = new Account(1000000);
         System.out.println(myAccount.toString());
 
+        // 2. 계좌 해킹
         Hacker.malcious(myAccount);
+        // 3. 결과 출력
+        System.out.println(myAccount.toString());
     }
 }
 
@@ -22,8 +27,10 @@ class Account {
 }
 
 class Hacker {
+    //클래스 메소드 - 계좌의 잔액을 0원으로 변경
     public static void malcious(Account account) {
-
+        //파라미터 계좌의 잔액을 0으로 변경하시오
+        account.balance = 0;
     }
 }
 
