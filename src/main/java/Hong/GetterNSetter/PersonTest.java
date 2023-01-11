@@ -11,6 +11,8 @@ public class PersonTest {
 }
 
 class Person {
+    //private 필드는 외부에서 직접 값을 변경할수 없다. private 필드를 우회적으로
+    //변경하는 방법은 setter를 만든다.
     private String name;
     private String phoneNumber;
 
